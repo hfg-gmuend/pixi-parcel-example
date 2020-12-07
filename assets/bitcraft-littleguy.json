@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "image": "bitcraft-littleguy.png",
+    "description": "Pixel Pal created by Bitcraftlab"
+  },
+  "frames": {
+    "walk_1": {
+      "frame": { "x": 0, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.5, "y": 1 }
+    },
+    "walk_2": {
+      "frame": { "x": 16, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.4375, "y": 1 }
+    },
+    "walk_3": {
+      "frame": { "x": 32, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.375, "y": 1 }
+    },
+    "walk_4": {
+      "frame": { "x": 48, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.3125, "y": 1 }
+    },
+    "walk_5": {
+      "frame": { "x": 64, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.25, "y": 1 }
+    },
+    "walk_6": {
+      "frame": { "x": 80, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.1875, "y": 1 }
+    },
+    "walk_7": {
+      "frame": { "x": 96, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.125, "y": 1 }
+    },
+    "walk_8": {
+      "frame": { "x": 112, "y": 0, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "anchor": { "x": 0.0625, "y": 1 }
+    }
+  },
+  "animations": {
+    "walk": [
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_6",
+      "walk_7",
+      "walk_8"
+    ]
+  }
+}

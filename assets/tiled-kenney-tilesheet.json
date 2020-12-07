@@ -1,0 +1,14 @@
+{ "columns":8,
+ "image":"kenney-tilesheet.png",
+ "imageheight":576,
+ "imagewidth":512,
+ "margin":0,
+ "name":"kenney-tilesheet",
+ "spacing":0,
+ "tilecount":72,
+ "tiledversion":"1.4.3",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":1.4
+}

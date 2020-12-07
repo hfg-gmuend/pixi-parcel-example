@@ -1,0 +1,39 @@
+{ "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
+ "height":8,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 19, 12, 15, 0, 0, 0, 62, 0, 0, 0, 16, 45, 37, 0, 19, 0, 0, 43, 16, 15, 38, 0, 20, 49, 52, 40, 16, 16, 38, 47, 28, 58, 61, 40, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+         "height":8,
+         "id":1,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":2,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.4.3",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"tiled-kenney-tilesheet.json"
+        }],
+ "tilewidth":64,
+ "type":"map",
+ "version":1.4,
+ "width":8
+}

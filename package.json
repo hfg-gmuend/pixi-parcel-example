@@ -1,0 +1,36 @@
+{
+  "name": "pixi-parcel-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@pixi/constants": "^5.3.3",
+    "@pixi/core": "^5.3.3",
+    "@pixi/display": "^5.3.3",
+    "@pixi/graphics": "^5.3.3",
+    "@pixi/math": "^5.3.3",
+    "@pixi/sprite": "^5.3.3",
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel-plugin-static-files-copy": "^2.5.0"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /dist"
+  },
+  "author": "Martin Schneider <craftoid@k2g2.org>",
+  "license": "MIT",
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "assets",
+        "staticOutDir": "assets"
+      }
+    ],
+    "watcherGlob": "**"
+  }
+}
